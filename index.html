@@ -168,13 +168,30 @@ button{
 
 /* RESPONSIVO */
 @media (max-width:768px){
+
+    .app{
+        flex-direction:column;
+        height:auto;
+    }
+
     .sidebar{
-        display:none;
+        width:100%;
+        background:rgba(0,0,0,0.85);
+        padding:10px;
+        box-sizing:border-box;
+        overflow:visible;
+    }
+
+    #search{
+        width:100%;
+        box-sizing:border-box;
+        margin-bottom:10px;
     }
 
     .content{
         width:100%;
         padding:10px;
+        box-sizing:border-box;
     }
 
     #homeGrid{
@@ -184,6 +201,12 @@ button{
     #capa{
         width:180px;
         height:180px;
+        display:block;
+        margin:20px auto;
+    }
+
+    .player{
+        height:130px;
     }
 }
 
